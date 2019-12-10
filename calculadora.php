@@ -8,15 +8,15 @@
     <table border="1">
         <th colspan="2">CALCULADORA</th>
         <tr><td>Introduzca número 1</td>
-        <td><input type="text" name="num1"</td></tr>
+            <td><input type="text" name="num1"></td></tr>
         <tr><td>Introduzca número 2</td>
-        <td><input type="text" name="num2"</td></tr>
+            <td><input type="text" name="num2"></td></tr>
         <td><fieldset>
                 <legend>Selecciona la operación a realizar</legend>
-                <input type="radio" name="operacion" value="suma" />Sumar<br>
-                <input type="radio" name="operacion" value="resta" />Restar<br>
-                <input type="radio" name="operacion" value="multiplica"/>Multiplicar<br>
-                <input type="radio" name="operacion" value="divide" />Dividir<br>
+                <input type="radio" name="operacion" value="suma">Sumar<br>
+                <input type="radio" name="operacion" value="resta">Restar<br>
+                <input type="radio" name="operacion" value="multiplica">Multiplicar<br>
+                <input type="radio" name="operacion" value="divide">Dividir<br>
             </fieldset></td>
         <td colspan="2" align="center"><input type="submit" name="ok" value="Calcular"</td>
     </table>
