@@ -8,9 +8,9 @@
     <table border="1">
         <th colspan="2">CALCULADORA</th>
         <tr><td>Introduzca número 1</td>
-            <td><input type="text" name="num1"></td></tr>
+            <td><input type="number" name="num1" required></td></tr>
         <tr><td>Introduzca número 2</td>
-            <td><input type="text" name="num2"></td></tr>
+            <td><input type="number" name="num2" required></td></tr>
         <td><fieldset>
                 <legend>Selecciona la operación a realizar</legend>
                 <input type="radio" name="operacion" value="suma">Sumar<br>
@@ -54,7 +54,7 @@
                         echo "El resulado de dividir $num1 entre $num2 es " . $resultado_operacion['divide'];
                         break;
                     }
-                }
+                    }
             //$resultado=suma($num1, $num2);
             //echo "El resultado es $resultado"; 
         ?>
